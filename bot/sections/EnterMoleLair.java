@@ -50,6 +50,7 @@ public class EnterMoleLair extends Section {
             } else {
                 settings.setCurrentAction("Hopping worlds");
                 api.getWorlds().hopToP2PWorld();
+                settings.setShouldHop(true);
             }
         }
     }
